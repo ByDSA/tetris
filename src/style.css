@@ -1,0 +1,19 @@
+* {
+  font: roboto, sans-serif;
+  font-size: 32px;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+canvas {
+  border: 1px solid black;
+}
+
+button#start {
+  font-size: 2em;
+  padding: 0.125em 0.5em;
+}

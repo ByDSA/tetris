@@ -1,0 +1,35 @@
+{
+  "author": "Dani Sales",
+  "contributors": [
+    {
+      "email": "danisales.es@gmail.com",
+      "name": "Daniel Sales"
+    }
+  ],
+  "dependencies": {
+    "typescript": "5.2.2"
+  },
+  "description": "Simple tetris",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "6.7.4",
+    "@typescript-eslint/parser": "6.7.4",
+    "eslint": "8.50.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-prettier": "5.0.0",
+    "prettier": "3.0.3",
+    "vite": "4.4.9"
+  },
+  "license": "UNLICENSED",
+  "name": "tetris",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
