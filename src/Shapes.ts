@@ -8,9 +8,18 @@ const SHAPES = Object.freeze( {
     [1, 1, 0],
     [0, 1, 1],
   ] as Shape,
+  Z_INV: [
+    [0, 1, 1],
+    [1, 1, 0],
+  ] as Shape,
   L: [
     [1, 0],
     [1, 0],
+    [1, 1],
+  ] as Shape,
+  L_INV: [
+    [0, 1],
+    [0, 1],
     [1, 1],
   ] as Shape,
   I: [
