@@ -1,7 +1,7 @@
-export const BLOCK_SIZE = 32;
+export const BLOCK_SIZE = 48;
 
-export const COLS = 7;
+export const BOARD_COLS = 8;
 
-export const ROWS = 15;
+export const BOARD_ROWS = 15;
 
 export type Position = {x: number; y: number};

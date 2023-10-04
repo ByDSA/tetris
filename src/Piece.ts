@@ -1,10 +1,10 @@
-import { BLOCK_SIZE, Position } from "./GameGlobals";
+import { Position } from "./GameGlobals";
 import { Shape } from "./Shapes";
 
 type Params = {
   position: Position;
   color: string;
-  shape: (0 | 1)[][];
+  shape: Shape;
 };
 export default class Piece {
   position: Position;
@@ -25,10 +25,10 @@ export default class Piece {
       row.forEach((value, x) => {
         if (value > 0) {
           ctx.fillRect(
-            (this.position.x + x) * BLOCK_SIZE,
-            (this.position.y + y) * BLOCK_SIZE,
-            BLOCK_SIZE,
-            BLOCK_SIZE,
+            this.position.x + x,
+            this.position.y + y,
+            1,
+            1,
           );
         }
       } );
